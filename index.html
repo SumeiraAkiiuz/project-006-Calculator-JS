@@ -11,7 +11,7 @@
         <input type="text" class="value" name="txt" readonly="">
         <span class="num clear" onclick="document.calc.txt.value = ''">AC</span>
         <span class="num del" onclick="document.calc.txt.value 
-        =''">DEL</span>
+        =calc.txt.value.substr(0,calc.txt.value.length-1)">DEL</span>
         <span class="num" onclick="document.calc.txt.value += '/'">/</span>
         <span class="num" onclick="document.calc.txt.value += '1'">1</span>
         <span class="num" onclick="document.calc.txt.value += '2'">2</span>
