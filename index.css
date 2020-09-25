@@ -25,16 +25,27 @@ body{
     outline: none;
     padding: 10px;
     font-size: 18px;
+    background: #3a1d35;
+    color: #fff;
 }
 .calculator span{
     display: grid;
-    width: 60px;
-    height: 60px;
-    color: 	#3a1d35;
+    width: 100px;
+    height: 100px;
+    color: 	#1e0f04;
     place-items: center;
     border: 1px solid rgb(255, 255, 255);
+    background: #f8dcf4;
 }
 .calculator span:active{
     background: lightgrey;
     color: #1e0f04;
+}
+.calculator span.clear{
+    grid-column: span 2;
+    width: 200px;
+}
+.calculator span.equal{
+    grid-column: span 2;
+    width: 200px;
 }
